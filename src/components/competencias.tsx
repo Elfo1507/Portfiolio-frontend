@@ -9,6 +9,7 @@ export const Competencias = () => {
   return (
     <CompetenciasContainer id="competencias">
       <h3>{language?.competencias.titulo}</h3>
+      <h2>Hard skills:</h2>
       <ul>
         {language?.competencias.listaCompetenciasHard.map(
           (e: string, i: number) => {

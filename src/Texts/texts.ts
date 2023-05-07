@@ -69,6 +69,7 @@ export const textPT = {
       "Criatividade",
       "Pensamento lógico",
       "Trabalho em equipe",
+      "Inglês avançado B2",
     ],
   },
   contatos: {
@@ -151,6 +152,7 @@ export const textEN = {
       "Creativity",
       "Logical Thinking",
       "Teamwork",
+      "Advanced English B2",
     ],
   },
   contatos: {
