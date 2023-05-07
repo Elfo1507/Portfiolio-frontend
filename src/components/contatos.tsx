@@ -11,7 +11,7 @@ export function Contatos() {
       <h2>{language?.contatos.titulo}</h2>
       <div>
         <a
-          href="https://api.whatsapp.com/send?phone=5531995382956"
+          href="https://api.whatsapp.com/send?phone=5531995382956&text=Ol%C3%A1%2C%20vim%20por%20meio%20do%20seu%20portfolio%20e%20gostaria%20de%20saber%20mais%20sobre%20seus%20servi%C3%A7os"
           target="_blank"
           rel="noreferrer"
         >
