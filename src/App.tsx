@@ -8,6 +8,8 @@ import { AppProvider } from "./context/AppContext";
 import { Global } from "./styles/globalStyle";
 import { Competencias } from "./components/competencias";
 import { Analytics } from "@vercel/analytics/react";
+import { SnakeHead, SnakeBody, SnakeTail } from "./components/cuebrita";
+import { SnakeGame } from "./components/cuebraGame";
 
 function App() {
   return (
@@ -21,8 +23,9 @@ function App() {
         <Sobre></Sobre>
         <Competencias />
         <Contatos></Contatos>
+        <SnakeGame/>
       </AppProvider>
-      <Analytics/>
+      <Analytics />
     </div>
   );
 }
