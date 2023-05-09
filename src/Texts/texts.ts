@@ -8,6 +8,7 @@ export interface iText {
     titulo: string;
   };
   header: {
+    lang: string;
     projetos: string;
     sobre: string;
     contatos: string;
@@ -76,6 +77,7 @@ export const textPT = {
     titulo: "Fale comigo",
   },
   header: {
+    lang: "Idioma:",
     projetos: "projetos",
     sobre: "sobre",
     contatos: "contatos",
@@ -159,6 +161,7 @@ export const textEN = {
     titulo: "Talk to me",
   },
   header: {
+    lang: "Language:",
     projetos: "Projects",
     sobre: "About",
     contatos: "Contact",

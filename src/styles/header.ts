@@ -21,10 +21,11 @@ export const HeaderMenu = styled.header`
   }
 
   & > .lang {
-    width: 10%;
+    width: 20%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
   }
 
   a {

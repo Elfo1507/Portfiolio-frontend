@@ -7,7 +7,7 @@ import { AppContext } from "../context/AppContext";
 import { textEN, textPT } from "../Texts/texts";
 
 export function Header() {
-  const { language, setLanguage } = useContext(AppContext);
+  const { language, setLanguage, screenSize } = useContext(AppContext);
   const [lang, setLang] = useState("PT-br");
   const [flag, setFlag] = useState(br);
 
@@ -31,7 +31,8 @@ export function Header() {
         <a href="#contatos">{language.header.contatos}</a>
       </div>
       <div className="lang" onClick={handleLang}>
-        <p>{lang}</p>
+        <p>{language.header.lang}</p>
+        {screenSize !== "small" && <p>{lang}</p>}
         <img src={flag} height="20px" width="20px" />
       </div>
     </HeaderMenu>
